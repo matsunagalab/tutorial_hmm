@@ -1,4 +1,4 @@
-# hmm_tutorials
+# Hands-on tutorial for Data-assimilation with Markov state model and hidden Markov modeling
 
 This repository is a set of Jupyter notebooks to help researchers already familiar with MD simulations lean how to integrate MD and experimental data thourh Markov state modeling.
 
@@ -34,8 +34,8 @@ julia> using IJulia
 
 ## Tutorial notebooks
 
-* 01 - [Markov State Model]
-* 02 - [Hidden Markov Model]
-* 03 - [Data assimilation via MSM]
-
+* 00 - [Preliminaries - Introduction to Julia and MDToolbox.jl](https://github.com/matsunagalab/hmm_tutorials/blob/main/00_Preliminaries.ipynb)
+* 01 - [Markov State Model - Estimate transition probabilities from MD trajectories](https://github.com/matsunagalab/hmm_tutorials/blob/main/01_Markov_State_Model.ipynb)
+* 02 - [Hidden Markov Model - Estimate transition probabilities from observation data](https://github.com/matsunagalab/hmm_tutorials/blob/main/02_Hidden_Markov_Model.ipynb)
+* 03 - [Data assimilation via MSM - Combining MD with experimental data](https://github.com/matsunagalab/hmm_tutorials/blob/main/03_Data_Assimilation.ipynb)
 
