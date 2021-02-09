@@ -1,25 +1,25 @@
 # Hands-on tutorial for Data-assimilation with Markov state model and hidden Markov modeling
 
-This repository is a set of Jupyter notebooks to help researchers already familiar with MD simulations lean how to integrate MD and experimental data thourh Markov state modeling.
+This repository is a set of Jupyter notebooks to help researchers already familiar with MD simulations lean how to integrate MD and experimental data with Markov state models (MSM) and hidden Markov modeling (HMM). 
 
 ## Getting started 
 
-This tutorial consits of several Jupyter notebook which are used in the Jupyter plathome. First, Jupyter needs to be installed in your machine. In the case of MacOS, you can install it from python's package system:
+This tutorial uses Jupyter notebook for illustrating real codes for computing MSM and HMM. So, you need to install the Jupyter plathome in your machine. In the case of MacOS, you can install it from python's package system:
 
 ```
-pip3 install jupyterlab
+$ pip3 install jupyterlab
 ```
 
-Moreover, we use a julia package [MDToolbox.jl](https://github.com/matsunagalab/MDToolbox.jl) for constructing a Marko state model and other stuff. So, you need to install julia from the julia [website](https://julialang.org), or in the case MacOS, you can install via Homebrew:
+Moreover, we use a julia package [MDToolbox.jl](https://github.com/matsunagalab/MDToolbox.jl) for calling specific functions related to MSM and HMM. You first need to install julia from the julia [website](https://julialang.org), or in the case MacOS, you can install via Homebrew:
 
 ```
-brew instal julia
+$ brew instal julia
 ```
 
-After installing julia, MDToolbox.jl can be installed in julia REPL:
+After installing julia, MDToolbox.jl can be installed from julia REPL:
 
 ```
-julia
+$ julia
 julia> ]add https://github.com/ymatsunaga/MDToolbox.jl.git
 julia> using MDToolbox
 ```
@@ -27,7 +27,7 @@ julia> using MDToolbox
 Moreover, in order to use julia in Jupyter, IJulia package needs to be installed:
 
 ```
-julia
+$ julia
 julia> add IJulia
 julia> using IJulia
 ```
