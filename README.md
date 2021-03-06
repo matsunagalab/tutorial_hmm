@@ -16,20 +16,12 @@ Moreover, we use a julia package [MDToolbox.jl](https://github.com/matsunagalab/
 $ brew install julia
 ```
 
-After installing julia, MDToolbox.jl can be installed from julia REPL:
+After installing julia, required packages need to be installed in julia. 
 
 ```
-$ julia
-julia> ]add https://github.com/ymatsunaga/MDToolbox.jl.git
-julia> using MDToolbox
-```
-
-In order to use julia in Jupyter, IJulia package needs to be installed:
-
-```
-$ julia
-julia> add IJulia
-julia> using IJulia
+$ julia -e 'using Pkg; Pkg.add(["PyPlot", "IJulia"])'
+$ julia -e 'using Pkg; Pkg.add(Pkg.PackageSpec(url="https://github.com/ymatsunaga/MDToolbox.jl.git", rev="master"))'
+$ julia -e 'using IJulia
 ```
 
 Finally, let's download this repository from GitHub:
@@ -39,13 +31,18 @@ $ git clone https://github.com/matsunagalab/hmm_tutorials.git
 $ cd hmm_tutorials/
 ```
 
+We are all set now. Let's start the tutorial by starting Jupyter Lab:
+
+```
+$ jupyter-lab
+```
 
 ## Tutorial notebooks
 
 * 00 - [Preliminaries - Introduction to Julia and MDToolbox.jl](https://github.com/matsunagalab/hmm_tutorials/blob/main/00_Preliminaries.ipynb)
-* 01 - [Markov State Model - Estimate transition probabilities from MD trajectories](https://github.com/matsunagalab/hmm_tutorials/blob/main/01_Markov_State_Model.ipynb)
-* 02 - [Hidden Markov Model - Estimate transition probabilities from observation data](https://github.com/matsunagalab/hmm_tutorials/blob/main/02_Hidden_Markov_Model.ipynb)
-* 03 - [Data assimilation via MSM - Combining MD with experimental data](https://github.com/matsunagalab/hmm_tutorials/blob/main/03_Data_Assimilation.ipynb)
+* 01 - [Markov State Model basics](https://github.com/matsunagalab/hmm_tutorials/blob/main/01_Markov_State_Model.ipynb)
+* 02 - [Hidden Markov Model basics](https://github.com/matsunagalab/hmm_tutorials/blob/main/02_Hidden_Markov_Model.ipynb)
+* 03 - [Data assimilation via MSM and HMM](https://github.com/matsunagalab/hmm_tutorials/blob/main/03_Data_Assimilation.ipynb)
 
 ## References
 
