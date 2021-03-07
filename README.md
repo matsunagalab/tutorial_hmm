@@ -9,12 +9,11 @@ This is a hands-on tutorial and uses Jupyter notebook for illustrating real code
 ```
 $ pip3 install jupyterlab
 
-# or some options may be required, such as
+# If the above didn't wok, some options may be required, such as
 $ pip3 install jupyterlab --user
 
-# or superuser priviledges may be required
+# Or superuser priviledges may be required
 $ sudo pip3 install jupyterlab --user
-
 ```
 
 Also, we use our in-house Julia package [MDToolbox.jl](https://github.com/matsunagalab/MDToolbox.jl) for using functions related to MSM and HMM. You need to download and install Julia from the [Julia website](https://julialang.org), or in the case MacOS, you can install via Homebrew:
@@ -30,7 +29,7 @@ $ julia -e 'using Pkg; Pkg.add(["PyPlot", "IJulia"])'
 $ julia -e 'using Pkg; Pkg.add(Pkg.PackageSpec(url="https://github.com/matsunagalab/MDToolbox.jl.git", rev="master"))'
 $ julia -e 'using IJulia'
 
-# if you already install an old version of MDToolbox, please update it by
+# If you already install an old version of MDToolbox, please update it by
 $ julia -e 'using Pkg; Pkg.update("MDToolbox")'
 ```
 
@@ -40,7 +39,7 @@ Finally, let's download this repository from GitHub:
 $ git clone https://github.com/matsunagalab/hmm_tutorials.git
 $ cd hmm_tutorials/
 
-# or if you already downloaded old versions of the tutorial files, please update them it by
+# Or if you already downloaded old versions of the tutorial files, please update them it by
 $ cd hmm_tutorials/
 $ git fetch origin main
 $ git reset --hard origin/main
