@@ -4,24 +4,24 @@ This repository is a set of Jupyter notebooks to help researchers already famili
 
 ## Getting started 
 
-This tutorial uses Jupyter notebook for illustrating real codes for computing MSM and HMM. So, you need to install the Jupyter plathome in your machine. In the case of MacOS, you can install it from python's package system:
+This is a hands-on tutorial and uses Jupyter notebook for illustrating real codes for computing MSM and HMM. So, you need to install Jupyter in your machine. In the case of MacOS, you can install it from python's package system:
 
 ```
 $ pip3 install jupyterlab
 ```
 
-Moreover, we use a julia package [MDToolbox.jl](https://github.com/matsunagalab/MDToolbox.jl) for calling specific functions related to MSM and HMM. You first need to install julia from the julia [website](https://julialang.org), or in the case MacOS, you can install via Homebrew:
+Also, we use our in-house Julia package [MDToolbox.jl](https://github.com/matsunagalab/MDToolbox.jl) for using functions related to MSM and HMM. You need to download and install Julia from the [Julia website](https://julialang.org), or in the case MacOS, you can install via Homebrew:
 
 ```
 $ brew install julia
 ```
 
-After installing julia, required packages need to be installed in julia. 
+After installing Julia, required packages can be installed as follows,
 
 ```
 $ julia -e 'using Pkg; Pkg.add(["PyPlot", "IJulia"])'
 $ julia -e 'using Pkg; Pkg.add(Pkg.PackageSpec(url="https://github.com/ymatsunaga/MDToolbox.jl.git", rev="master"))'
-$ julia -e 'using IJulia
+$ julia -e 'using IJulia'
 ```
 
 Finally, let's download this repository from GitHub:
@@ -31,7 +31,7 @@ $ git clone https://github.com/matsunagalab/hmm_tutorials.git
 $ cd hmm_tutorials/
 ```
 
-We are all set now. Let's start the tutorial by starting Jupyter Lab:
+You are all set now. Let's start the tutorial by starting Jupyter Lab:
 
 ```
 $ jupyter-lab
