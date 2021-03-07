@@ -13,7 +13,7 @@ $ pip3 install jupyterlab
 $ pip3 install jupyterlab --user
 
 # Or superuser priviledges may be required
-$ sudo pip3 install jupyterlab --user
+$ sudo pip3 install jupyterlab
 ```
 
 Also, we use our in-house Julia package [MDToolbox.jl](https://github.com/matsunagalab/MDToolbox.jl) for using functions related to MSM and HMM. You need to download and install Julia from the [Julia website](https://julialang.org), or in the case MacOS, you can install via Homebrew:
