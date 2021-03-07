@@ -29,7 +29,7 @@ $ julia -e 'using Pkg; Pkg.add(["PyPlot", "IJulia"])'
 $ julia -e 'using Pkg; Pkg.add(Pkg.PackageSpec(url="https://github.com/matsunagalab/MDToolbox.jl.git", rev="master"))'
 $ julia -e 'using IJulia'
 
-# If you already install an old version of MDToolbox, please update it by
+# If you already install an older version of MDToolbox, please update it by
 $ julia -e 'using Pkg; Pkg.update("MDToolbox")'
 ```
 
@@ -39,7 +39,7 @@ Finally, let's download this repository from GitHub:
 $ git clone https://github.com/matsunagalab/hmm_tutorials.git
 $ cd hmm_tutorials/
 
-# Or if you already downloaded old versions of the tutorial files, please update them by
+# Or if you already downloaded older versions of the tutorial files, please update them by
 $ cd hmm_tutorials/
 $ git fetch origin main
 $ git reset --hard origin/main
