@@ -4,7 +4,7 @@ This repository is a set of Jupyter notebooks to help researchers already famili
 
 ## Getting started 
 
-This is a hands-on tutorial and uses Jupyter notebook for illustrating real codes for computing MSM and HMM. So, you need to install Jupyter in your machine. In the case of MacOS, you can install it from python's package system:
+This is a hands-on tutorial and uses Jupyter notebook for illustrating live codes for computing MSM and HMM. So, you need to install Jupyter in your machine. In the case of MacOS, you can install it from python's package system:
 
 ```
 $ pip3 install jupyterlab
