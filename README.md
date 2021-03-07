@@ -39,7 +39,7 @@ Finally, let's download this repository from GitHub:
 $ git clone https://github.com/matsunagalab/hmm_tutorials.git
 $ cd hmm_tutorials/
 
-# Or if you already downloaded old versions of the tutorial files, please update them it by
+# Or if you already downloaded old versions of the tutorial files, please update them by
 $ cd hmm_tutorials/
 $ git fetch origin main
 $ git reset --hard origin/main
