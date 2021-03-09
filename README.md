@@ -1,4 +1,4 @@
-# Hands-on tutorial for Data-assimilation with Markov state model and hidden Markov modeling
+# Hands-on tutorial on Data-assimilation with Markov state model and hidden Markov modeling
 
 This repository is a set of Jupyter notebooks to help researchers already familiar with MD simulations lean how to integrate MD and experimental data with Markov state models (MSM) and hidden Markov modeling (HMM). 
 
