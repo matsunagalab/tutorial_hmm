@@ -25,7 +25,7 @@ $ brew install julia
 After installing Julia, required packages can be installed as follows,
 
 ```
-$ julia -e 'using Pkg; Pkg.add(["PyPlot", "IJulia"])'
+$ julia -e 'using Pkg; Pkg.add(["PyPlot", "JLD2", "IJulia"])'
 $ julia -e 'using Pkg; Pkg.add(Pkg.PackageSpec(url="https://github.com/matsunagalab/MDToolbox.jl.git", rev="master"))'
 $ julia -e 'using IJulia'
 
@@ -53,6 +53,7 @@ $ jupyter-lab
 
 ## Tutorial notebooks
 
+* [Slides](https://github.com/matsunagalab/hmm_tutorials/blob/main/slides.pdf)
 * 00 - [Preliminaries - Introduction to Julia and MDToolbox.jl](https://github.com/matsunagalab/hmm_tutorials/blob/main/00_Preliminaries.ipynb)
 * 01 - [Markov State Model basics](https://github.com/matsunagalab/hmm_tutorials/blob/main/01_Markov_State_Model.ipynb)
 * 02 - [Hidden Markov Model basics](https://github.com/matsunagalab/hmm_tutorials/blob/main/02_Hidden_Markov_Model.ipynb)
